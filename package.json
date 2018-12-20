@@ -2,6 +2,7 @@
   "name": "react-lingui-demo",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://nukbal.github.io/react-lingui-demo",
   "dependencies": {
     "@lingui/core": "^3.0.0-3",
     "@lingui/react": "^3.0.0-3",
@@ -12,11 +13,12 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && react-snap",
     "test": "react-scripts test",
     "add-locale": "lingui add-locale",
     "extract": "lingui extract",
-    "compile": "lingui compile"
+    "compile": "lingui compile",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -43,5 +45,8 @@
     "react-snap": "^1.23.0",
     "react-testing-library": "^5.4.0",
     "typescript": "^3.2.2"
+  },
+  "reactSnap": {
+    "inlineCss": true
   }
 }

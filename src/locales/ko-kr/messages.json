@@ -1,0 +1,141 @@
+{
+  "JSX対応": {
+    "translation": "JSX서포트",
+    "origin": [
+      [
+        "src/App.tsx",
+        63
+      ]
+    ]
+  },
+  "LinguiJS デモ": {
+    "translation": "LinguiJS 데모",
+    "origin": [
+      [
+        "src/App.tsx",
+        54
+      ]
+    ]
+  },
+  "input-text": {
+    "translation": "안녕하세요 {0}씨",
+    "defaults": "おはようございます。{0}さん",
+    "origin": [
+      [
+        "src/App.tsx",
+        68
+      ]
+    ]
+  },
+  "javascript側": {
+    "translation": "javascript처리",
+    "origin": [
+      [
+        "src/App.tsx",
+        71
+      ]
+    ]
+  },
+  "rand.0": {
+    "translation": "랜덤",
+    "defaults": "ランダム",
+    "origin": [
+      [
+        "src/App.tsx",
+        25
+      ]
+    ]
+  },
+  "rand.1": {
+    "translation": "이",
+    "defaults": "では",
+    "origin": [
+      [
+        "src/App.tsx",
+        26
+      ]
+    ]
+  },
+  "rand.2": {
+    "translation": "아닙니다",
+    "defaults": "ありません",
+    "origin": [
+      [
+        "src/App.tsx",
+        27
+      ]
+    ]
+  },
+  "{0, plural, =0 {誰も来なかったんです} =1 {1人のゲストさんが来ました} other {#人のゲストさんが来ました}}": {
+    "translation": "{0, plural, =0 {아무도 오지 않았습니다} =1 {한명의 게스트가 왔습니다} other {#명의 게스트가 왔습니다}}",
+    "origin": [
+      [
+        "src/App.tsx",
+        80
+      ]
+    ]
+  },
+  "このプロジェクトは 国際化のライブラリの<0>LinguiJS</0>の<1>React</1>デモです。": {
+    "translation": "이 프로젝트는 국제화(번역) 라이브러리인 <0>LinguiJS</0>의<1>React</1>데모입니다.",
+    "origin": [
+      [
+        "src/App.tsx",
+        56
+      ]
+    ]
+  },
+  "ボタンを押したらランダムなテキストを表示します": {
+    "translation": "버튼을 눌러 랜덤한 문자를 생성해보세요",
+    "origin": [
+      [
+        "src/App.tsx",
+        72
+      ]
+    ]
+  },
+  "今日は {0,date}です": {
+    "translation": "오늘은 {0,date}입니다.",
+    "origin": [
+      [
+        "src/App.tsx",
+        87
+      ]
+    ]
+  },
+  "名前を書いてください": {
+    "translation": "이름을 입력해주세요",
+    "origin": [
+      [
+        "src/App.tsx",
+        65
+      ]
+    ]
+  },
+  "数値": {
+    "translation": "숫자",
+    "origin": [
+      [
+        "src/App.tsx",
+        77
+      ]
+    ]
+  },
+  "日付": {
+    "translation": "날짜",
+    "origin": [
+      [
+        "src/App.tsx",
+        86
+      ]
+    ]
+  },
+  "生成": {
+    "translation": "생성",
+    "origin": [
+      [
+        "src/App.tsx",
+        73
+      ]
+    ]
+  }
+}

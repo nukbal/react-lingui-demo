@@ -1,0 +1,161 @@
+{
+  "#人のゲストさんが来ました": {
+    "translation": "#人のゲストさんが来ました",
+    "origin": [
+      [
+        "src/App.tsx",
+        80
+      ]
+    ],
+    "obsolete": true
+  },
+  "1人のゲストさんが来ました": {
+    "translation": "1人のゲストさんが来ました",
+    "origin": [
+      [
+        "src/App.tsx",
+        80
+      ]
+    ],
+    "obsolete": true
+  },
+  "JSX対応": {
+    "translation": "JSX対応",
+    "origin": [
+      [
+        "src/App.tsx",
+        63
+      ]
+    ]
+  },
+  "LinguiJS デモ": {
+    "translation": "LinguiJS デモ",
+    "origin": [
+      [
+        "src/App.tsx",
+        54
+      ]
+    ]
+  },
+  "input-text": {
+    "translation": "おはようございます。{0}さん",
+    "defaults": "おはようございます。{0}さん",
+    "origin": [
+      [
+        "src/App.tsx",
+        68
+      ]
+    ]
+  },
+  "javascript側": {
+    "translation": "javascript側",
+    "origin": [
+      [
+        "src/App.tsx",
+        71
+      ]
+    ]
+  },
+  "rand.0": {
+    "translation": "ランダム",
+    "defaults": "ランダム",
+    "origin": [
+      [
+        "src/App.tsx",
+        25
+      ]
+    ]
+  },
+  "rand.1": {
+    "translation": "では",
+    "defaults": "では",
+    "origin": [
+      [
+        "src/App.tsx",
+        26
+      ]
+    ]
+  },
+  "rand.2": {
+    "translation": "ありません",
+    "defaults": "ありません",
+    "origin": [
+      [
+        "src/App.tsx",
+        27
+      ]
+    ]
+  },
+  "{0, plural, =0 {誰も来なかったんです} =1 {1人のゲストさんが来ました} other {#人のゲストさんが来ました}}": {
+    "translation": "{0, plural, =0 {誰も来なかったんです} =1 {1人のゲストさんが来ました} other {#人のゲストさんが来ました}}",
+    "origin": [
+      [
+        "src/App.tsx",
+        80
+      ]
+    ]
+  },
+  "このプロジェクトは 国際化のライブラリの<0>LinguiJS</0>の<1>React</1>デモです。": {
+    "translation": "このプロジェクトは 国際化のライブラリの<0>LinguiJS</0>の<1>React</1>デモです。",
+    "origin": [
+      [
+        "src/App.tsx",
+        56
+      ]
+    ]
+  },
+  "ボタンを押したらランダムなテキストを表示します": {
+    "translation": "ボタンを押したらランダムなテキストを表示します",
+    "origin": [
+      [
+        "src/App.tsx",
+        72
+      ]
+    ]
+  },
+  "今日は {0,date}です": {
+    "translation": "今日は {0,date}です",
+    "origin": [
+      [
+        "src/App.tsx",
+        87
+      ]
+    ]
+  },
+  "名前を書いてください": {
+    "translation": "名前を書いてください",
+    "origin": [
+      [
+        "src/App.tsx",
+        65
+      ]
+    ]
+  },
+  "数値": {
+    "translation": "数値",
+    "origin": [
+      [
+        "src/App.tsx",
+        77
+      ]
+    ]
+  },
+  "日付": {
+    "translation": "日付",
+    "origin": [
+      [
+        "src/App.tsx",
+        86
+      ]
+    ]
+  },
+  "生成": {
+    "translation": "生成",
+    "origin": [
+      [
+        "src/App.tsx",
+        73
+      ]
+    ]
+  }
+}

@@ -1,31 +1,35 @@
 import React, { Component, ChangeEvent } from 'react';
-import { I18nProvider, I18n } from '@lingui/react';
+import { I18n, I18nProvider } from '@lingui/react';
 import { t, Trans, DateFormat, NumberFormat, Plural } from '@lingui/macro';
-import { i18n, defaultLocale } from './i18n';
+import { defaultLocale, i18n } from './i18n';
 
 import './styles.css';
 
 i18n.activate(defaultLocale);
 
 export default class App extends Component {
-  state = { text: '', random: '', num: 0 };
+  state = { locale: defaultLocale, text: '', random: '', num: 0 };
 
   shouldComponentUpdate(_: any, state: any) {
     return this.state.text !== state.text ||
       this.state.random !== state.random ||
-      this.state.num !== state.num;
+      this.state.num !== state.num ||
+      this.state.locale !== state.locale;
   }
 
-  toEnglish = () => {
-    i18n.activate('en');
+  toEnglish = async () => {
+    await i18n.activate('en');
+    this.setState({ locale: 'en' });
   }
 
-  toKorean = () => {
-    i18n.activate('ko-kr');
+  toKorean = async () => {
+    await i18n.activate('ko-kr');
+    this.setState({ locale: 'ko-kr' });
   }
 
-  toJapanese = () => {
-    i18n.activate('ja');
+  toJapanese = async () => {
+    await i18n.activate('ja');
+    this.setState({ locale: 'ja' });
   }
 
   handleInput = ({ target }: ChangeEvent<HTMLInputElement>) => {
@@ -74,7 +78,7 @@ export default class App extends Component {
                   <input
                     type="text"
                     name="text"
-                    placeholder={i18n._(t`何かを入力してください`)}
+                    placeholder={i18n._(t`名前を書いてください`)}
                     value={this.state.text}
                     onChange={this.handleInput}
                   />
@@ -99,6 +103,7 @@ export default class App extends Component {
                 _1="1人のゲストさんが来ました"
                 other="#人のゲストさんが来ました"
               />
+              <br />
               <button onClick={this.increase}>+</button>
               <button onClick={this.decrease}>-</button>
             </section>

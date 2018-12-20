@@ -1,0 +1,141 @@
+{
+  "JSX対応": {
+    "translation": "JSX support",
+    "origin": [
+      [
+        "src/App.tsx",
+        63
+      ]
+    ]
+  },
+  "LinguiJS デモ": {
+    "translation": "LinguiJS Demo",
+    "origin": [
+      [
+        "src/App.tsx",
+        54
+      ]
+    ]
+  },
+  "input-text": {
+    "translation": "Good morning, {0}",
+    "defaults": "おはようございます。{0}さん",
+    "origin": [
+      [
+        "src/App.tsx",
+        68
+      ]
+    ]
+  },
+  "javascript側": {
+    "translation": "within javascript code",
+    "origin": [
+      [
+        "src/App.tsx",
+        71
+      ]
+    ]
+  },
+  "rand.0": {
+    "translation": "it's",
+    "defaults": "ランダム",
+    "origin": [
+      [
+        "src/App.tsx",
+        25
+      ]
+    ]
+  },
+  "rand.1": {
+    "translation": "not",
+    "defaults": "では",
+    "origin": [
+      [
+        "src/App.tsx",
+        26
+      ]
+    ]
+  },
+  "rand.2": {
+    "translation": "random.",
+    "defaults": "ありません",
+    "origin": [
+      [
+        "src/App.tsx",
+        27
+      ]
+    ]
+  },
+  "{0, plural, =0 {誰も来なかったんです} =1 {1人のゲストさんが来ました} other {#人のゲストさんが来ました}}": {
+    "translation": "{0, plural, =0 {Nobody arrived} =1 {only one guest arrived} other {# guests arrived}}",
+    "origin": [
+      [
+        "src/App.tsx",
+        80
+      ]
+    ]
+  },
+  "このプロジェクトは 国際化のライブラリの<0>LinguiJS</0>の<1>React</1>デモです。": {
+    "translation": "This is an integration demo of internalization(i18n) library <0>LinguiJS</0> with <1>React</1> apps.",
+    "origin": [
+      [
+        "src/App.tsx",
+        56
+      ]
+    ]
+  },
+  "ボタンを押したらランダムなテキストを表示します": {
+    "translation": "Show random text by press a button",
+    "origin": [
+      [
+        "src/App.tsx",
+        72
+      ]
+    ]
+  },
+  "今日は {0,date}です": {
+    "translation": "Today is {0,date}",
+    "origin": [
+      [
+        "src/App.tsx",
+        87
+      ]
+    ]
+  },
+  "名前を書いてください": {
+    "translation": "Please enter your name",
+    "origin": [
+      [
+        "src/App.tsx",
+        65
+      ]
+    ]
+  },
+  "数値": {
+    "translation": "Number",
+    "origin": [
+      [
+        "src/App.tsx",
+        77
+      ]
+    ]
+  },
+  "日付": {
+    "translation": "Date",
+    "origin": [
+      [
+        "src/App.tsx",
+        86
+      ]
+    ]
+  },
+  "生成": {
+    "translation": "Generate",
+    "origin": [
+      [
+        "src/App.tsx",
+        73
+      ]
+    ]
+  }
+}

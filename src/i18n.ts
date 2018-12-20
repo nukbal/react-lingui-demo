@@ -8,12 +8,6 @@ export const locales = {
 export const defaultLocale = 'en';
 
 const loadCatalog = async (locale: string) => {
-  if (
-    navigator.userAgent !== 'ReactSnap'
-  ) {
-    // intentionally slow translations to simmulate bigger JS bundle
-    await new Promise(res => setTimeout(res, 500));
-  }
   // @ts-ignore
   return import(/* webpackMode: 'lazy', webpackChunkName: 'i18n-[index]' */
   `./locales/${locale}/messages.js`);

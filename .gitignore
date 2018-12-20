@@ -10,7 +10,7 @@
 
 # production
 /build
-src/locales
+src/locales/_build
 
 # misc
 .DS_Store
