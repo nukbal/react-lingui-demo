@@ -22,6 +22,6 @@
     "src"
   ],
   "exclude": [
-    "src/locales"
+    "src/locales/**/messages.js"
   ]
 }

@@ -1,5 +1,5 @@
 import React, { Component, ChangeEvent } from 'react';
-import { I18n, I18nProvider } from '@lingui/react';
+import { I18n, I18nProvider, withI18n } from '@lingui/react';
 import { t, Trans, DateFormat, NumberFormat, Plural } from '@lingui/macro';
 import { defaultLocale, i18n } from './i18n';
 
@@ -18,16 +18,19 @@ export default class App extends Component {
   }
 
   toEnglish = async () => {
+    if (this.state.locale === 'en') return;
     await i18n.activate('en');
     this.setState({ locale: 'en' });
   }
 
   toKorean = async () => {
+    if (this.state.locale === 'ko-kr') return;
     await i18n.activate('ko-kr');
     this.setState({ locale: 'ko-kr' });
   }
 
   toJapanese = async () => {
+    if (this.state.locale === 'ja') return;
     await i18n.activate('ja');
     this.setState({ locale: 'ja' });
   }
@@ -53,14 +56,21 @@ export default class App extends Component {
   }
 
   render () {
+    const { locale } = this.state;
     return (
       // @ts-ignore
       <I18nProvider i18n={i18n}>
         <>
           <nav>
-            <a role="button" onClick={this.toEnglish}>English</a>
-            <a role="button" onClick={this.toKorean}>한국어</a>
-            <a role="button" onClick={this.toJapanese}>日本語</a>
+            <a className={locale === 'en' ? 'disabled' : undefined} role="button" onClick={this.toEnglish}>
+              English
+            </a>
+            <a className={locale === 'ko-kr' ? 'disabled' : undefined} role="button" onClick={this.toKorean}>
+              한국어
+            </a>
+            <a className={locale === 'ja' ? 'disabled' : undefined} role="button" onClick={this.toJapanese}>
+              日本語
+            </a>
           </nav>
           <main>
             <h1><Trans>LinguiJS デモ</Trans></h1>
@@ -95,14 +105,18 @@ export default class App extends Component {
             </section>
             <section>
               <h3><Trans>数値</Trans></h3>
-              <NumberFormat value={10000} format={{ style: 'currency', currency: 'JPY' }} />
+              <span>
+                <NumberFormat value={10000} format={{ style: 'currency', currency: 'JPY' }} />
+              </span>
               <br />
-              <Plural
-                value={this.state.num}
-                _0="誰も来なかったんです"
-                _1="1人のゲストさんが来ました"
-                other="#人のゲストさんが来ました"
-              />
+              <span>
+                <Plural
+                  value={this.state.num}
+                  _0="誰も来なかったんです"
+                  _1="1人のゲストさんが来ました"
+                  other="#人のゲストさんが来ました"
+                />
+              </span>
               <br />
               <button onClick={this.increase}>+</button>
               <button onClick={this.decrease}>-</button>

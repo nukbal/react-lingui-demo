@@ -33,6 +33,7 @@
     "@babel/core": "^7.2.2",
     "@lingui/cli": "^3.0.0-3",
     "@lingui/macro": "^3.0.0-3",
+    "@types/jest": "^23.3.10",
     "@types/lingui__core": "^2.2.0",
     "@types/lingui__macro": "^2.7.0",
     "@types/lingui__react": "^2.5.0",
@@ -48,5 +49,13 @@
   },
   "reactSnap": {
     "inlineCss": true
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**.{ts,tsx}",
+      "!src/serviceWorker.ts",
+      "!src/setupTests.ts",
+      "!src/index.tsx"
+    ]
   }
 }
