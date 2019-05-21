@@ -1,19 +1,21 @@
 {
-  "main.css": "/react-lingui-demo/static/css/main.d76a285c.chunk.css",
-  "main.js": "/react-lingui-demo/static/js/main.7c4b59bf.chunk.js",
-  "main.js.map": "/react-lingui-demo/static/js/main.7c4b59bf.chunk.js.map",
-  "i18n-0.js": "/react-lingui-demo/static/js/i18n-0.2481d690.chunk.js",
-  "i18n-0.js.map": "/react-lingui-demo/static/js/i18n-0.2481d690.chunk.js.map",
-  "i18n-1.js": "/react-lingui-demo/static/js/i18n-1.117e1452.chunk.js",
-  "i18n-1.js.map": "/react-lingui-demo/static/js/i18n-1.117e1452.chunk.js.map",
-  "i18n-2.js": "/react-lingui-demo/static/js/i18n-2.fc4e930c.chunk.js",
-  "i18n-2.js.map": "/react-lingui-demo/static/js/i18n-2.fc4e930c.chunk.js.map",
-  "static/js/4.7578e8c1.chunk.js": "/react-lingui-demo/static/js/4.7578e8c1.chunk.js",
-  "static/js/4.7578e8c1.chunk.js.map": "/react-lingui-demo/static/js/4.7578e8c1.chunk.js.map",
-  "runtime~main.js": "/react-lingui-demo/static/js/runtime~main.ac5f16a0.js",
-  "runtime~main.js.map": "/react-lingui-demo/static/js/runtime~main.ac5f16a0.js.map",
-  "static/css/main.d76a285c.chunk.css.map": "/react-lingui-demo/static/css/main.d76a285c.chunk.css.map",
-  "index.html": "/react-lingui-demo/index.html",
-  "precache-manifest.ff9f3f74863eb9ff70793a81eb4a42f5.js": "/react-lingui-demo/precache-manifest.ff9f3f74863eb9ff70793a81eb4a42f5.js",
-  "service-worker.js": "/react-lingui-demo/service-worker.js"
+  "files": {
+    "i18n-0.js": "/react-lingui-demo/static/js/i18n-0.44e71000.chunk.js",
+    "i18n-0.js.map": "/react-lingui-demo/static/js/i18n-0.44e71000.chunk.js.map",
+    "i18n-1.js": "/react-lingui-demo/static/js/i18n-1.7450c420.chunk.js",
+    "i18n-1.js.map": "/react-lingui-demo/static/js/i18n-1.7450c420.chunk.js.map",
+    "i18n-2.js": "/react-lingui-demo/static/js/i18n-2.6c13f8b1.chunk.js",
+    "i18n-2.js.map": "/react-lingui-demo/static/js/i18n-2.6c13f8b1.chunk.js.map",
+    "main.css": "/react-lingui-demo/static/css/main.36883630.chunk.css",
+    "main.js": "/react-lingui-demo/static/js/main.7f79dcc3.chunk.js",
+    "main.js.map": "/react-lingui-demo/static/js/main.7f79dcc3.chunk.js.map",
+    "runtime~main.js": "/react-lingui-demo/static/js/runtime~main.2734a427.js",
+    "runtime~main.js.map": "/react-lingui-demo/static/js/runtime~main.2734a427.js.map",
+    "static/js/5.11c5ba49.chunk.js": "/react-lingui-demo/static/js/5.11c5ba49.chunk.js",
+    "static/js/5.11c5ba49.chunk.js.map": "/react-lingui-demo/static/js/5.11c5ba49.chunk.js.map",
+    "index.html": "/react-lingui-demo/index.html",
+    "precache-manifest.45818e1822ef8c79d0434547ffc85ef8.js": "/react-lingui-demo/precache-manifest.45818e1822ef8c79d0434547ffc85ef8.js",
+    "service-worker.js": "/react-lingui-demo/service-worker.js",
+    "static/css/main.36883630.chunk.css.map": "/react-lingui-demo/static/css/main.36883630.chunk.css.map"
+  }
 }
