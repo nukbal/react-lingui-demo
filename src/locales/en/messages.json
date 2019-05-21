@@ -4,7 +4,7 @@
     "origin": [
       [
         "src/App.tsx",
-        63
+        54
       ]
     ]
   },
@@ -13,17 +13,17 @@
     "origin": [
       [
         "src/App.tsx",
-        54
+        45
       ]
     ]
   },
   "input-text": {
-    "translation": "Good morning, {0}",
-    "defaults": "おはようございます。{0}さん",
+    "translation": "Good morning, {text}",
+    "message": "おはようございます。{text}さん",
     "origin": [
       [
         "src/App.tsx",
-        68
+        57
       ]
     ]
   },
@@ -32,13 +32,23 @@
     "origin": [
       [
         "src/App.tsx",
-        71
+        60
       ]
     ]
   },
   "rand.0": {
     "translation": "it's",
-    "defaults": "ランダム",
+    "message": "ランダム",
+    "origin": [
+      [
+        "src/App.tsx",
+        24
+      ]
+    ]
+  },
+  "rand.1": {
+    "translation": "not",
+    "message": "では",
     "origin": [
       [
         "src/App.tsx",
@@ -46,9 +56,9 @@
       ]
     ]
   },
-  "rand.1": {
-    "translation": "not",
-    "defaults": "では",
+  "rand.2": {
+    "translation": "random.",
+    "message": "ありません",
     "origin": [
       [
         "src/App.tsx",
@@ -56,22 +66,12 @@
       ]
     ]
   },
-  "rand.2": {
-    "translation": "random.",
-    "defaults": "ありません",
+  "{num, plural, =0 {誰も来なかったんです} =1 {1人のゲストさんが来ました} other {#人のゲストさんが来ました}}": {
+    "translation": "{num, plural, =0 {Nobody arrived} =1 {only one guest arrived} other {# guests arrived}}",
     "origin": [
       [
         "src/App.tsx",
-        27
-      ]
-    ]
-  },
-  "{0, plural, =0 {誰も来なかったんです} =1 {1人のゲストさんが来ました} other {#人のゲストさんが来ました}}": {
-    "translation": "{0, plural, =0 {Nobody arrived} =1 {only one guest arrived} other {# guests arrived}}",
-    "origin": [
-      [
-        "src/App.tsx",
-        80
+        72
       ]
     ]
   },
@@ -80,7 +80,7 @@
     "origin": [
       [
         "src/App.tsx",
-        56
+        47
       ]
     ]
   },
@@ -89,16 +89,16 @@
     "origin": [
       [
         "src/App.tsx",
-        72
+        61
       ]
     ]
   },
-  "今日は {0,date}です": {
-    "translation": "Today is {0,date}",
+  "今日は {0}です": {
+    "translation": "Today is {0}",
     "origin": [
       [
         "src/App.tsx",
-        87
+        80
       ]
     ]
   },
@@ -107,7 +107,7 @@
     "origin": [
       [
         "src/App.tsx",
-        65
+        55
       ]
     ]
   },
@@ -116,7 +116,7 @@
     "origin": [
       [
         "src/App.tsx",
-        77
+        66
       ]
     ]
   },
@@ -125,7 +125,7 @@
     "origin": [
       [
         "src/App.tsx",
-        86
+        79
       ]
     ]
   },
@@ -134,7 +134,7 @@
     "origin": [
       [
         "src/App.tsx",
-        73
+        62
       ]
     ]
   }
